@@ -1,0 +1,135 @@
+/* ViewReport.css */
+
+.view-report-body {
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .region {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .region-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .region-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .region-description {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .police-stations {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .police-station-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .police-station-button.selected {
+    background-color: #0056b3;
+  }
+  
+  .date-form {
+    margin-top: 20px;
+  }
+  
+  .date-form-header {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .date-form-text {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .date-inputs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .date-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 10px;
+  }
+  
+  .submit-button {
+    text-align: center;
+  }
+  
+  .submit-button-style {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin-top: 10px;
+  }
+  
+  .crime-data-table {
+    margin-top: 20px;
+  }
+  
+  .crime-data-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .crime-data-table th,
+  .crime-data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .crime-data-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .back-button {
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #5a6268;
+  }
+  
